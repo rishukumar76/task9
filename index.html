@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Four Division Webpage</title>
+    <style>
+        body {
+            background: #f5faff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            margin-top: 60px;
+        }
+        .box {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 4px 16px #15b97a;
+            width: 180px;
+            text-align: center;
+            padding: 28px 18px 18px 18px;
+            transition: transform 0.2s;
+        }
+        .box:hover {
+            transform: translateY(-8px) scale(1.04);
+            box-shadow: 0 8px 32px #51aab2;
+        }
+        .box img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            margin-bottom: 14px;
+        }
+        .box h2 {
+            margin: 0;
+            color: #750a1dfa;
+            font-size: 1.4em;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="home.jpg" alt="Home Logo">
+            <h2>Home</h2>
+        </div>
+        <div class="box">
+            <img src="about-us-icon-15.jpg" alt="About Logo">
+            <h2>About</h2>
+        </div>
+        <div class="box">
+            <img src="pngtree.jpg" alt="Gallery Logo">
+            <h2>Gallery</h2>
+        </div>
+        <div class="box">
+            <img src="contact-logo-png-5.jpg" alt="Contact Logo">
+            <h2>Contact</h2>
+        </div>
+    </div>
+</body>
+</html>
